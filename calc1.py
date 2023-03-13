@@ -5,7 +5,7 @@ Created on Sun Mar 12 15:43:55 2023
 @author: XeL
 """
 
-n1, n2, op = 0,0,0
+n1 = n2 = op = 0
 
 print("----------Hello n welcome!----------\n\n")
 print("this is py_calc v1, made with <3\n")
@@ -17,17 +17,15 @@ print("4-Floor division\n")
 print("5-Multiplication\n")
 print("6-Exponentiation\n")
 print("7-Modulus\n\n\n")
+
 op = input("Enter option: ")
 while not op.isdigit() or int(op) < 1 or int(op) > 8:
-    print("Invalid Option.")
-    op = input("Enter option: ")
+    op = input("Invalid Option. Enter option: ")
     
 n1 = input("\n\nThx!, pls enter number 1: ")
 while not n1.isdigit():
-    print("Invalid.")
-    n1 = input("pls enter number 1: ")
+    n1 = input("Invalid Option. Pls enter number 1: ")
 
 n2 = input("\n\nGreat!, pls enter number 2: ")
 while not n2.isdigit():
-    print("Invalid.")
-    n2 = input("pls enter number 2: ")
+    n2 = input("Invalid. Pls enter number 2: ")
