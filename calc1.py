@@ -41,20 +41,20 @@ print("beep bop\n")
 sleep(2)
 print("ran out of fingers, but the anwser is: ")
 
-if op == '1':     #add
-    print(int(n1+n2))
+if op == 1:     #add
+    print(n1+n2)
 if op == 2:
-    print("")
+    print(n1-n2)
 if op == 3:
-    print("")
+    print(n1/n2)
 if op == 4:
-    print("")
+    print(n1 // n2)
 if op == 5: 
-    print("")
+    print(n1*n2)
 if op == 6:
-    print("")
+    print(n1 ** n2)
 if op == 7:
-    print("")
+    print(n1 % n2)
     
     
 
